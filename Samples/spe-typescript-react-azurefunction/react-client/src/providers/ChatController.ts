@@ -5,7 +5,7 @@ import {
     IconName, 
     IconStyle, 
     IThemeOptions 
-} from "../sdk/types";
+} from '@microsoft/sharepointembedded-copilotchat-react';
 import { IContainer } from "../../../common/schemas/ContainerSchemas";
 
 export class ChatController {
@@ -99,4 +99,5 @@ export class ChatController {
 
     public readonly pirateMetaPrompt = "Response must be in the tone of a pirate. Yarrr!";
 
+    public readonly locale = "en";
 }
